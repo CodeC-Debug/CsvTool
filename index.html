@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>CSVMerger</title>
     <!-- <base href="/CSVWebApp/" /> -->
-	<base href="./" />
+    <base href="./" />
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="css/app.css" rel="stylesheet" />
     <link href="css/styleDragAndDrop.css" rel="stylesheet" />
@@ -28,10 +28,10 @@
         // When the single page app is loaded further down in this file,
         // the correct url will be waiting in the browser's history for
         // the single page app to route accordingly.
-        (function(l) {
+        (function (l) {
             if (l.search) {
                 var q = {};
-                l.search.slice(1).split('&').forEach(function(v) {
+                l.search.slice(1).split('&').forEach(function (v) {
                     var a = v.split('=');
                     q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
                 });
